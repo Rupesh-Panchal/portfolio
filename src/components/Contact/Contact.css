@@ -125,67 +125,106 @@
 
 @media (max-width: 768px) {
   .contact {
-    gap: 50px;
-    margin: 50px 70px;
-    align-items: start;
+    gap: 40px;
+    margin: 40px 20px;
+    align-items: center; /* center align for a balanced look */
+  }
+
+  .contact-title {
+    width: 100%;
+    text-align: center;
+    position: relative;
   }
 
   .contact-title h1 {
     padding: 0;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 44px;
+    font-weight: 700;
   }
 
   .contact-title img {
-    width: 130px;
-    margin-right: -20px;
+    width: 100px;
+    position: absolute;
+    bottom: -10px;
+    right: 50%;
+    transform: translateX(50%);
+    opacity: 0.15;
+    z-index: -1;
   }
 
   .contact-section {
     flex-direction: column;
+    gap: 40px;
+    width: 100%;
+  }
+
+  .contact-left {
+    width: 100%;
+    text-align: center;
   }
 
   .contact-left h1 {
-    font-size: 54px;
+    font-size: 36px;
+    margin-bottom: 10px;
   }
 
   .contact-left p {
     font-size: 18px;
+    max-width: 100%;
+    line-height: 28px;
+    margin: 0 auto;
+  }
+
+  .contact-details {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
   }
 
   .contact-detail {
-    gap: 20px;
+    justify-content: center;
+    gap: 15px;
   }
 
   .contact-detail img {
     width: 25px;
+    height: auto;
   }
 
   .linkedin-icon {
     width: 25px;
+    height: auto;
+  }
+
+  .contact-right {
+    width: 100%;
+    align-items: center;
+    gap: 20px;
   }
 
   .contact-right label {
-    font-size: 20px;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
   }
 
-  .contact-right input {
+  .contact-right input,
+  .contact-right textarea {
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 15px 20px;
   }
 
   .contact-right textarea {
-    width: 95%;
-    font-size: 20px;
+    min-height: 150px;
+    resize: vertical;
   }
 
   .contact-submit {
     font-size: 20px;
     padding: 15px 40px;
-  }
-
-  .linkedin-icon {
-    width: 25px;
-    height: 55px;
+    width: auto;
+    align-self: center;
+    margin-bottom: 30px;
   }
 }
