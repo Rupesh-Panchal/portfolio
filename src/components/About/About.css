@@ -24,12 +24,6 @@
   z-index: -1;
 }
 
-.krishna-img {
-  width: 650px;
-  height: 210px;
-  margin-top: 8px;
-}
-
 .about-sections {
   display: flex;
   gap: 80px;
@@ -176,6 +170,7 @@
 
   .about-skills {
     margin-top: 10px;
+    margin-left: 20px;
     gap: 15px;
     width: 100%;
   }

@@ -104,6 +104,10 @@
     text-align: center;
   }
 
+  .footer-txt {
+    display: none;
+  }
+
   .footer-top-right {
     width: 100%;
     justify-content: center;
@@ -132,13 +136,11 @@
     align-items: center;
     gap: 20px;
     font-size: 16px;
+    margin-bottom: 50px;
   }
 
   .footer-bottom-right {
-    gap: 30px;
-    margin-bottom: 20px;
-    justify-content: center;
-    width: 100%;
+    display: none;
   }
 
   .footer-social-icons {

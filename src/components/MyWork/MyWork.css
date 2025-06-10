@@ -66,6 +66,7 @@
 
 @media (max-width: 768px) {
   .mywork {
+    display: none;
     gap: 50px;
     margin: 40px 20px; /* reduced horizontal margin for narrow screens */
     align-items: center; /* center align for better visual balance */

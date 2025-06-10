@@ -71,9 +71,9 @@
     top: 0;
     right: -100%; /* Changed from left:-100% to right:-100% */
     width: 80vw;
-    max-width: 300px;
-    height: 100vh;
-    background-color: #333232;
+    max-width: 250px;
+    height: 40vh;
+    background-color: #181717;
     padding-top: 60px;
     display: flex;
     flex-direction: column;
@@ -100,6 +100,8 @@
   }
 
   .nav-mob-open {
+    padding-top: 35px;
+    position: fixed;
     display: block;
     position: fixed;
     top: 20px;
@@ -111,6 +113,8 @@
   }
 
   .nav-mob-close {
+    margin-right: 20px;
+    padding-top: 35px;
     display: block;
     position: absolute;
     top: 15px;
