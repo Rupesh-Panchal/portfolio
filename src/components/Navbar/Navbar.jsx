@@ -90,7 +90,17 @@ const Navbar = () => {
           </AnchorLink>
           {menu === "services" && <img src={underline} alt="underline" />}
         </li>
-
+        <li>
+          <AnchorLink
+            className="anchor-link port"
+            offset={50}
+            href="#work"
+            onClick={() => setMenu("work")}
+          >
+            Portfolio
+          </AnchorLink>
+          {menu === "work" && <img src={underline} alt="underline" />}
+        </li>
         <li>
           <AnchorLink
             className="anchor-link"

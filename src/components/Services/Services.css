@@ -70,13 +70,6 @@
   margin-bottom: 80px;
 }
 
-.services-readmore {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  margin-top: 20px;
-}
-
 @media (max-width: 768px) {
   .services {
     align-items: center; /* center align for better look */
@@ -135,11 +128,5 @@
     font-size: 16px;
     line-height: 28px;
     max-width: 100%;
-  }
-
-  .services-readmore {
-    margin-top: 15px;
-    gap: 12px;
-    font-size: 14px;
   }
 }

@@ -16,7 +16,7 @@ const About = () => {
             src={krishna}
             alt="krishna"
             className="krishna-img"
-            style={{ width: "600px", height: "320px", marginTop: "8px" }}
+            style={{ width: "600px", height: "260px", marginTop: "8px" }}
           />
         </div>
         <div className="about-right">
@@ -59,8 +59,10 @@ const About = () => {
         <div className="about-achievement">
           <h1>BSCIT Graduate</h1>
           <p>
-            Graduated with a Bachelor's degree in Science Information Technology
-            with cgpa: 8.98.
+            I am proud to have completed my Bachelor's degree in Science
+            Information Technology with a CGPA of 8.98. This journey helped me
+            build a strong foundation in various areas of technology, and I am
+            grateful for the knowledge and experiences gained during this time.
           </p>
         </div>
         <hr />
@@ -68,16 +70,20 @@ const About = () => {
         <div className="about-achievement">
           <h1>Front-end development</h1>
           <p>
-            Having a good knowledge of React JS with hands-on experience in
-            building Projects.
+            I enjoy working with React JS and have hands-on experience creating
+            beautiful and user-friendly web applications. Learning to build
+            interactive interfaces has been both exciting and rewarding, and I
+            always strive to improve my skills.
           </p>
         </div>
         <hr />
         <div className="about-achievement">
           <h1>Back-end development</h1>
           <p>
-            Proficient in building RESTful APIs using Express JS and integrating
-            with MongoDB.
+            I am comfortable building RESTful APIs using Express JS and
+            connecting them with MongoDB databases. I focus on writing clean and
+            efficient code, making sure the backend services I build are
+            reliable and helpful for users.
           </p>
         </div>
       </div>

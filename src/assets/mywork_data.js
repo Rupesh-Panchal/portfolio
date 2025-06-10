@@ -8,31 +8,17 @@ import project6_img from "../assets/project_6.svg";
 const mywork_data = [
   {
     w_no: 1,
-    w_name: "Portfolio Website",
-    w_img: project1_img,
-  },
-  {
-    w_no: 2,
-    w_name: "PasteApp (Note Sharing App)",
-    w_img: project2_img,
-  },
-  {
-    w_no: 3,
     w_name: "To-Do List App",
     w_img: project3_img,
   },
   {
-    w_no: 4,
+    w_no: 2,
     w_name: "Weather Forecast App",
     w_img: project4_img,
   },
+
   {
-    w_no: 5,
-    w_name: "Quiz Application",
-    w_img: project5_img,
-  },
-  {
-    w_no: 6,
+    w_no: 3,
     w_name: "Responsive Landing Page",
     w_img: project6_img,
   },
