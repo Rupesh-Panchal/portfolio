@@ -69,24 +69,24 @@
   .nav-menu {
     position: fixed;
     top: 0;
-    left: -100%; /* hidden by default */
-    width: 80vw; /* cover 80% width */
+    right: -100%; /* Changed from left:-100% to right:-100% */
+    width: 80vw;
     max-width: 300px;
     height: 100vh;
-    background-color: #333232; /* dark background */
-    padding-top: 60px; /* space for close button */
+    background-color: #333232;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 25px;
-    transition: left 0.4s ease;
+    transition: right 0.4s ease; /* Animate right instead of left */
     z-index: 9999;
   }
 
-  /* Add a class (e.g., 'open') to slide in the menu */
   .nav-menu.open {
-    left: 0;
+    right: 0; /* Changed from left:0 to right:0 */
   }
 
+  /* Keep other styles same */
   .nav-menu li {
     font-size: 22px;
     padding-left: 20px;
@@ -95,12 +95,10 @@
     cursor: pointer;
   }
 
-  /* Hide nav-connect button on mobile */
   .nav-connect {
     display: none;
   }
 
-  /* Hamburger menu icon button */
   .nav-mob-open {
     display: block;
     position: fixed;
@@ -112,7 +110,6 @@
     color: white;
   }
 
-  /* Close icon inside menu */
   .nav-mob-close {
     display: block;
     position: absolute;
