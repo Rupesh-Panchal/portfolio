@@ -5,7 +5,7 @@ import krishna from "../../assets/krishna.jpg";
 
 const About = () => {
   return (
-    <div className="about" id="about">
+    <div className="about fle" id="about">
       <div className="about-title">
         <h1>About Me</h1>
         <img src={theme_pattern} alt="theme_pattern" />
@@ -16,7 +16,7 @@ const About = () => {
             src={krishna}
             alt="krishna"
             className="krishna-img"
-            style={{ width: "600px", height: "260px", marginTop: "8px" }}
+            style={{ width: "620px", height: "240px", marginTop: "8px" }}
           />
         </div>
         <div className="about-right">
@@ -38,19 +38,19 @@ const About = () => {
           <div className="about-skills">
             <div className="about-skill">
               <p>HTML & CSS</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "40%" }} />
             </div>
             <div className="about-skill">
               <p>JavaScript</p>
-              <hr style={{ width: "70%" }} />
+              <hr style={{ width: "55%" }} />
             </div>
             <div className="about-skill">
               <p>React JS</p>
-              <hr style={{ width: "60%" }} />
+              <hr style={{ width: "45%" }} />
             </div>
             <div className="about-skill">
               <p>Express JS</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "35%" }} />
             </div>
           </div>
         </div>

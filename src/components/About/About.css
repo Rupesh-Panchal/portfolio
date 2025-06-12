@@ -204,8 +204,8 @@
 
   .about-achievement {
     flex: 1 1 140px;
-    max-width: 180px;
-
+    max-width: 250px;
+    padding: 15px 10px;
     gap: 8px;
     align-items: center;
     text-align: center;
